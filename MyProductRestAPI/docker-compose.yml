@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  myproductrestapi:
+    image: ${DOCKER_REGISTRY}myproductrestapi
+    build:
+      context: .
+      dockerfile: MyProductRestAPI/Dockerfile
