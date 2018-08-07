@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
-using Store.Core.DataLayer.Mapping;
-using Store.Core.DataLayer.Mapping.myProduct;
+using MyProductCore.DataLayer.Mapping;
+using MyProductCore.DataLayer.Mapping.myProduct;
 
 
-namespace Store.Core.DataLayer
+namespace MyProductCore.DataLayer
 {
     public class myProductDBContext : DbContext
     {

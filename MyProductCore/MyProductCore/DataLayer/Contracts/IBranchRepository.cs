@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
-using Store.Core.EntityLayer.myProduct;
+using MyProductCore.EntityLayer.myProduct;
 
 
-namespace Store.Core.DataLayer.Contracts
+namespace MyProductCore.DataLayer.Contracts
 {
     public interface  IBranchRepository : IRepository
     {

@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Store.Core.BusinessLayer
+namespace MyProductCore.BusinessLayer
 {
-    public class ForeignKeyDependencyException : StoreException
+    public class ForeignKeyDependencyException : MyProductException
     {
         public ForeignKeyDependencyException()
         {

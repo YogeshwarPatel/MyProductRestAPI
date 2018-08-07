@@ -3,15 +3,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using Store.Core.BusinessLayer.Contracts;
-using Store.Core.BusinessLayer.Responses;
-using Store.Core.DataLayer;
-using Store.Core.EntityLayer.myProduct;
-using Store.Core.DataLayer.Repositories;
+using MyProductCore.BusinessLayer.Contracts;
+using MyProductCore.BusinessLayer.Responses;
+using MyProductCore.DataLayer;
+using MyProductCore.EntityLayer.myProduct;
+using MyProductCore.DataLayer.Repositories;
 
 
 
-namespace Store.Core.BusinessLayer
+namespace MyProductCore.BusinessLayer
 {
     public class BranchService : Service, IBranchService
     {

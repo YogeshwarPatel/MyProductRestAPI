@@ -1,20 +1,20 @@
 ﻿using System;
 
-namespace Store.Core.BusinessLayer
+namespace MyProductCore.BusinessLayer
 {
-    public class StoreException : Exception
+    public class MyProductException : Exception
     {
-        public StoreException()
+        public MyProductException()
             : base()
         {
         }
 
-        public StoreException(String message)
+        public MyProductException(String message)
             : base(message)
         {
         }
 
-        public StoreException(String message, Exception innerException)
+        public MyProductException(String message, Exception innerException)
             : base(message, innerException)
         {
         }

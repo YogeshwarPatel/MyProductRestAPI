@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Store.Common
+namespace MyProductCommon
 {
     public static class LogHelper
     {

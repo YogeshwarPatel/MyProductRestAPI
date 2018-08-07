@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Store.Core.EntityLayer.myProduct;
+using MyProductCore.EntityLayer.myProduct;
 using System.Collections.ObjectModel;
 
-namespace Store.Core.EntityLayer.myProduct
+namespace MyProductCore.EntityLayer.myProduct
 {
     public class Branch 
     {

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Store.Core.EntityLayer.myProduct;
+using MyProductCore.EntityLayer.myProduct;
 
 
-namespace Store.Core.DataLayer.Mapping.myProduct
+namespace MyProductCore.DataLayer.Mapping.myProduct
 {
     class BranchConfiguration : IEntityTypeConfiguration<Branch>
     {

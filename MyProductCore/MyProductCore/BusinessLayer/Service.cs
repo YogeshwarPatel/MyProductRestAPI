@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.Logging;
-using Store.Core.BusinessLayer.Contracts;
-using Store.Core.DataLayer;
-using Store.Core.DataLayer.Contracts;
-using Store.Core.DataLayer.Repositories;
+using MyProductCore.BusinessLayer.Contracts;
+using MyProductCore.DataLayer;
+using MyProductCore.DataLayer.Contracts;
+using MyProductCore.DataLayer.Repositories;
 
-namespace Store.Core.BusinessLayer
+namespace MyProductCore.BusinessLayer
 {
     public abstract class Service : IService
     {

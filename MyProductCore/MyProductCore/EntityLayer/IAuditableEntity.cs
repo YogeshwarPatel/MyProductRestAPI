@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Store.Core.EntityLayer
+namespace MyProductCore.EntityLayer
 {
     public interface IAuditableEntity : IEntity
     {

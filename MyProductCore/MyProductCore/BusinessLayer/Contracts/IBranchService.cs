@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using Store.Core.DataLayer.DataContracts;
-using Store.Core.EntityLayer.myProduct;
-using Store.Core.BusinessLayer.Requests;
-using Store.Core.BusinessLayer.Responses;
+using MyProductCore.DataLayer.DataContracts;
+using MyProductCore.EntityLayer.myProduct;
+using MyProductCore.BusinessLayer.Requests;
+using MyProductCore.BusinessLayer.Responses;
 
 
 
 
-namespace Store.Core.BusinessLayer.Contracts
+namespace MyProductCore.BusinessLayer.Contracts
 {
     public interface IBranchService : IService
     {

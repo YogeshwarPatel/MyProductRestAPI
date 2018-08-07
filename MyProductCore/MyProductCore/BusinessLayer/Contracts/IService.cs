@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Store.Core.BusinessLayer.Contracts
+namespace MyProductCore.BusinessLayer.Contracts
 {
     public interface IService : IDisposable
     {

@@ -4,10 +4,10 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Store.Core.DataLayer.Contracts;
-using Store.Core.EntityLayer.myProduct;
+using MyProductCore.DataLayer.Contracts;
+using MyProductCore.EntityLayer.myProduct;
 
-namespace Store.Core.DataLayer.Repositories
+namespace MyProductCore.DataLayer.Repositories
 {
     public class BranchRepository : Repository, IBranchRepository
     {

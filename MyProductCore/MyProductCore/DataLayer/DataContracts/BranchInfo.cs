@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Store.Core.DataLayer.DataContracts
+namespace MyProductCore.DataLayer.DataContracts
 {
     class BranchInfo
     {

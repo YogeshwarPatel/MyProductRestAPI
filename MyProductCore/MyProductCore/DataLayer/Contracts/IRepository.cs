@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Store.Core.DataLayer.Contracts
+namespace MyProductCore.DataLayer.Contracts
 {
     public interface IRepository
     {

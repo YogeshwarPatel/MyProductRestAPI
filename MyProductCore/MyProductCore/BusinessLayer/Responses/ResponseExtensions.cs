@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.Logging;
 
-namespace Store.Core.BusinessLayer.Responses
+namespace MyProductCore.BusinessLayer.Responses
 {
     public static class ResponseExtensions
     {
@@ -9,7 +9,7 @@ namespace Store.Core.BusinessLayer.Responses
         {
             response.DidError = true;
 
-            var cast = ex as StoreException;
+            var cast = ex as MyProductException;
 
             if (cast == null)
             {

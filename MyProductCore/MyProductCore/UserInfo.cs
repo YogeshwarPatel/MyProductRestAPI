@@ -1,4 +1,4 @@
-﻿namespace Store.Core
+﻿namespace MyProductCore
 {
     public class UserInfo : IUserInfo
     {

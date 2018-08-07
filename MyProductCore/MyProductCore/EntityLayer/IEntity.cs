@@ -1,4 +1,4 @@
-﻿namespace Store.Core.EntityLayer
+﻿namespace MyProductCore.EntityLayer
 {
     public interface IEntity
     {
