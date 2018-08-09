@@ -14,7 +14,7 @@ namespace MyProductCore.BusinessLayer.Responses
             if (cast == null)
             {
                 logger?.LogCritical(ex.ToString());
-                response.ErrorMessage = "There was an internal error, please contact to technical support.";
+                response.ErrorMessage = "There was an internal error, please contact to technical support.  " + ex.ToString();
             }
             else
             {

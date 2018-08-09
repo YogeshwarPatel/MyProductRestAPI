@@ -15,8 +15,8 @@ namespace MyProductCore.BusinessLayer
 {
     public class BranchService : Service, IBranchService
     {
-        public BranchService(ILogger<BranchService> logger, IUserInfo userInfo, myProductDBContext dbContext, myProductDBContext myPDBContext) //TODO Yogesh remove duplicate parameter
-            : base(logger, userInfo, dbContext, myPDBContext)
+        public BranchService(ILogger<BranchService> logger, IUserInfo userInfo,  myProductDBContext myPDBContext) 
+            : base(logger, userInfo,  myPDBContext)
         {
         }
 

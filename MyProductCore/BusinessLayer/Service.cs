@@ -12,14 +12,12 @@ namespace MyProductCore.BusinessLayer
         protected IUserInfo UserInfo;
         protected bool Disposed;
         protected readonly myProductDBContext myPDBContext;
-        protected readonly myProductDBContext DbContext; //TODO Yogesh remmove this
         protected IBranchRepository m_branchRepository;
 
-        public Service(ILogger logger, IUserInfo userInfo, myProductDBContext dbContext, myProductDBContext myprodPDBContext) // TODO Yogesh remove duplicate parameter
+        public Service(ILogger logger, IUserInfo userInfo,  myProductDBContext myprodPDBContext) 
         {
             Logger = logger;
             UserInfo = userInfo;
-            DbContext = dbContext;
             myPDBContext = myprodPDBContext;
         }
 
@@ -27,8 +25,7 @@ namespace MyProductCore.BusinessLayer
         {
             if (!Disposed)
             {
-                DbContext?.Dispose();
-
+                myPDBContext?.Dispose();
                 Disposed = true;
             }
         }
