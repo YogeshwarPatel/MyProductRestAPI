@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyProductCore.DataLayer.DataContracts
 {
-    class BranchInfo
+    class BranchInfo //Not Used for now as at 10 Aug 2018
     {
         public BranchInfo()
         {
