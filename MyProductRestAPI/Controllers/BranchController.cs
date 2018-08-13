@@ -30,7 +30,7 @@ namespace MyProductRestAPI.Controllers
             base.Dispose(disposing);
         }
 
-        [HttpGet("Branch")]
+        [HttpGet("")]
         public async Task<IActionResult> GetBranchsAsync(int? pageSize = 10, int? pageNumber = 1)
         {
             Logger?.LogDebug("{0} has been invoked", nameof(GetBranchsAsync));
@@ -43,7 +43,7 @@ namespace MyProductRestAPI.Controllers
         }
 
 
-        [HttpGet("Branch/{BranchCode}")]
+        [HttpGet("{BranchCode}")]
         public async Task<IActionResult> GetBranchByBranchCodeAsync(string BranchCode)
         {
             Logger?.LogDebug("{0} has been invoked", nameof(GetBranchByBranchCodeAsync));

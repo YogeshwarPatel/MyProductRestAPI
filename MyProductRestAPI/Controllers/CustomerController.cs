@@ -30,7 +30,7 @@ namespace MyProductRestAPI.Controllers
             base.Dispose(disposing);
         }
 
-        [HttpGet("Customer")]
+        [HttpGet("")]
         public async Task<IActionResult> GetCustomers(int? pageSize = 10, int? pageNumber = 1)
         {
             Logger?.LogDebug("{0} has been invoked", nameof(GetCustomers));
@@ -43,7 +43,7 @@ namespace MyProductRestAPI.Controllers
         }
 
 
-        [HttpGet("Customer/{CustomerCode}")]
+        [HttpGet("{CustomerCode}")]
         public async Task<IActionResult>  GetCustomer(string CustomerCode)
         {
             Logger?.LogDebug("{0} has been invoked", nameof(GetCustomer));
