@@ -19,7 +19,7 @@ namespace MyProductCore.BusinessLayer.Contracts
 
         Task<Customer> SearchCustomers(string SearchText, Int32 pageSize = 10, Int32 pageNumber = 1);
 
-        Task<Customer> GetCustomer(string CustomerCode);
+        Task<ISingleResponse<Customer>> GetCustomer(string CustomerCode);
 
     }
 }

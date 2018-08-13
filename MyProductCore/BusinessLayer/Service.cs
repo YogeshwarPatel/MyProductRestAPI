@@ -13,6 +13,7 @@ namespace MyProductCore.BusinessLayer
         protected bool Disposed;
         protected readonly myProductDBContext myPDBContext;
         protected IBranchRepository m_branchRepository;
+        protected ICustomerRepository m_customerRepository;
 
         public Service(ILogger logger, IUserInfo userInfo,  myProductDBContext myprodPDBContext) 
         {
@@ -32,5 +33,8 @@ namespace MyProductCore.BusinessLayer
         
         protected IBranchRepository branchRepository
             => m_branchRepository ?? (m_branchRepository = new BranchRepository(UserInfo, myPDBContext));
+
+        protected ICustomerRepository customerRepository
+            => m_customerRepository ?? (m_customerRepository = new CustomerRepository(UserInfo, myPDBContext));
     }
 }
