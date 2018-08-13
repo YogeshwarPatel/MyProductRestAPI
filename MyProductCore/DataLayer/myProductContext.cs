@@ -20,6 +20,8 @@ namespace MyProductCore.DataLayer
 
             modelBuilder
                 .ApplyConfiguration(new BranchConfiguration());
+            modelBuilder
+                .ApplyConfiguration(new CustomerConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }

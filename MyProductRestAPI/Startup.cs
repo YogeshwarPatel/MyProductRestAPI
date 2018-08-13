@@ -38,7 +38,7 @@ namespace MyProductRestAPI
                 options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
             });
 
-            
+
             services.AddDbContext<myProductDBContext>(options => options.UseSqlServer(Configuration["AppSettings:ConnectionStringIntegrationDB"]));
 
             services.AddScoped<IUserInfo, UserInfo>();
@@ -47,6 +47,7 @@ namespace MyProductRestAPI
 
             services.AddScoped<IBranchService, BranchService>();
 
+            services.AddScoped<ICustomerService, CustomerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
